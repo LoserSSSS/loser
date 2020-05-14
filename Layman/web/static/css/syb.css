@@ -1,0 +1,258 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 1em/150% "微软雅黑", Arial, Helvetica, sans-serif;
+    text-align: center
+}
+
+img {
+    border: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    border: none;
+}
+
+#main {
+    background: #FFFFFF;
+    overflow: hidden;
+    position: relative;
+}
+
+.mainxz {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 6;
+}
+
+.syb1 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin: -250px 0 0;
+    padding: 0 10%;
+    width: 80%;
+    text-align: center;
+}
+
+.mainxz2 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin: -250px 0 0;
+    padding: 0 10%;
+    width: 80%;
+    text-align: center;
+}
+
+.name {
+    left: 0;
+    margin: -250px 0 0;
+    padding: 0 10%;
+    position: absolute;
+    text-align: center;
+    top: 52.7%;
+    width: 80%;
+}
+
+@media screen and (max-width: 640px) {
+    .syb1 {
+        margin: -40% 0 0;
+    }
+
+    .mainxz2 {
+        margin: -40% 0 0;
+    }
+
+    .name {
+        margin: -40% 0 0;
+    }
+}
+
+.syb1 {
+    animation: mainzx1 120s infinite linear;
+    -webkit-animation: mainzx1 120s infinite linear;
+    -moz-animation: mainzx1 120s infinite linear;
+    -o-animation: mainzx1 120s infinite linear;
+}
+
+@-webkit-keyframes mainzx1 {
+    from {
+        -webkit-transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(359deg)
+    }
+}
+
+@-moz-keyframes mainzx1 {
+    from {
+        -moz-transform: rotate(0deg)
+    }
+    to {
+        -moz-transform: rotate(359deg)
+    }
+}
+
+@-o-keyframes mainzx1 {
+    from {
+        -o-transform: rotate(0deg)
+    }
+    to {
+        -o-transform: rotate(359deg)
+    }
+}
+
+@keyframes mainzx1 {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(359deg)
+    }
+}
+
+.mainxz2 {
+    animation: mainzx2 60s infinite linear;
+    -webkit-animation: mainzx2 60s infinite linear;
+    -moz-animation: mainzx2 60s infinite linear;
+    -o-animation: mainzx2 60s infinite linear;
+}
+
+@-webkit-keyframes mainzx2 {
+    from {
+        -webkit-transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(-359deg)
+    }
+}
+
+@-moz-keyframes mainzx2 {
+    from {
+        -moz-transform: rotate(0deg)
+    }
+    to {
+        -moz-transform: rotate(-359deg)
+    }
+}
+
+@-o-keyframes mainzx2 {
+    from {
+        -o-transform: rotate(0deg)
+    }
+    to {
+        -o-transform: rotate(-359deg)
+    }
+}
+
+@keyframes mainzx2 {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(-359deg)
+    }
+}
+
+.name img {
+    max-width: 250px;
+    width: 100%;
+    border-radius: 50%
+}
+
+.mainxz2 img, .syb1 img {
+    max-width: 300px;
+    width: 100%;
+}
+
+.maincanvas {
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+
+#particles-js {
+    height: 1080px;
+    max-width: 1920px;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+.wwwti1me {
+    background: #FFFFFF linear-gradient(to right bottom, rgba(255, 250, 250, 0.3), rgba(255, 250, 250, 0.4)) repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+
+.animate {
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.action-button {
+    position: relative;
+    padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    border-radius: 5px;
+    font-family: 'microsoft yahei', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.orange {
+    background-color: orange;
+    border-bottom: 5px solid #ab7018;
+    text-shadow: 0px -2px #D1B358;
+}
+
+.blue {
+    background-color: #3498DB;
+    border-bottom: 5px solid #2980B9;
+    text-shadow: 0px -2px #2980B9;
+}
+
+.red {
+    background-color: #E74C3C;
+    border-bottom: 5px solid #BD3E31;
+    text-shadow: 0px -2px #BD3E31;
+}
+
+.green {
+    background-color: #82BF56;
+    border-bottom: 5px solid #669644;
+    text-shadow: 0px -2px #669644;
+}
+
+.yellow {
+    background-color: #F2CF66;
+    border-bottom: 5px solid #D1B358;
+    text-shadow: 0px -2px #D1B358;
+}
+
+.action-button:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    border-bottom: 1px solid;
+}
+.button_diy1{
+    background-color: #4cb0f9;
+    text-align: center;
+    text
+}
